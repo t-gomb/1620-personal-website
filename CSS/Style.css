@@ -1,3 +1,23 @@
 body{
-    background-color: pink;
+    background-color: rgb(229, 218, 218);
+    font-family: 'Ubuntu', sans-serif;
+}
+nav {
+    border-bottom: 10px solid rgb(0, 38, 66);
+    font-family: 'Ubuntu', sans-serif;
+}
+.Navigate a::after {
+    display: inline-block;
+    color: rgb(0, 38, 66);
+    content: 'click here';
+    font-size: 100%;
+    font-weight: bold;
+    padding: 10 13px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.Navigate {
+    display: inline-block;
+    display: display;
+    width: 60px;
+    background-color: rgb(229, 218, 218)
 }
